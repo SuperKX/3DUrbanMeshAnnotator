@@ -24,6 +24,10 @@ if(POLICY CMP0056)
   cmake_policy(SET CMP0056 NEW)
 endif()
 
+# 找不到zlib则写死。
+SET(ZLIB_LIBRARY E:/playerone/3rdpart/CC_DEV/lib/x64/release/zlibstatic.lib)
+SET(ZLIB_INCLUDE_DIR E:/playerone/3rdpart/CC_DEV/include/zlib)
+
 # Use GNUInstallDirst to get canonical paths
 include(GNUInstallDirs)
 
