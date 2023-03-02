@@ -37,7 +37,7 @@ url = {https://www.sciencedirect.com/science/article/pii/S0924271621001854},
   2.1 在“/CGAL/build”中使用cmake编译，第一次configure后设置boost位置，勾选WITH中的zlib、eigen选项。  
   2.2 再次configure，然后填eigen地址，并Add Entry添加zlib的头地址，和库文件。  
   2.3 仍然找不到zlib地址，则在cmakelist中写死可解决，再次configure，然后generate。  
-  3.配置工程  
+  3. 配置工程  
   3.1 在“工程/src”第中一次配置，同样缺boost库，填写上即可。  
   3.2 第二次配置缺eigen库，同样填上，再次配置生成，完成。  
   3.3 启动项目，在release下全部生成  
